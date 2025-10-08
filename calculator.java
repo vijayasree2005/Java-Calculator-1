@@ -33,7 +33,7 @@ class Main{
                 case "/":
                     if(b==0 || a==0)
                     {
-                        System.out.println("division by zero exception");
+                        System.out.println("division by zero not valid");
                     }
                     else {
                         System.out.println(a / b);
@@ -47,11 +47,11 @@ class Main{
 
             }
 
-            System.out.println("continue give 1 or not 0 ");
+            System.out.println("continue give yes for 1 or no for 0 ");
             i=scan.nextInt();
 
 
-
+   
             } while(i==1);
         System.out.println("Thank you for using the calculator!");
         scan.close();
